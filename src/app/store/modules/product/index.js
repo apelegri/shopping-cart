@@ -2,11 +2,11 @@ import axios from 'axios';
 
 const state = {
   productItems: []
-};
+}
 
 const mutations = {
-  UPDATE_PRODUCT_ITEMS (state, playload) {
-    state.productItems = playload;
+  UPDATE_PRODUCT_ITEMS (state, payload) {
+    state.productItems = payload;
   }
 };
 
@@ -16,11 +16,11 @@ const actions = {
       commit('UPDATE_PRODUCT_ITEMS', response.data)
     });
   }
-};
+}
 
 const getters = {
   productItems: state => state.productItems
-};
+}
 
 const productModule = {
   state,
