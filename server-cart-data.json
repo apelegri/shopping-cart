@@ -5,5 +5,15 @@
         "description": "Lightweight, breathable hoodie with the Crest. Guaranteed to keep you looking fresh while warm.",
         "price": 19.99,
         "quantity": 2
+    },
+    {
+        "quantity": 3
+    },
+    {
+        "id": 100,
+        "title": "A New Cart Item",
+        "description": "Adding a new cart item",
+        "price": 99,
+        "quantity": 1
     }
 ]
